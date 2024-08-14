@@ -1,0 +1,92 @@
+
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F3F3F3;
+  gap: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App  .nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    /* height: 40px; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* padding-bottom: 20px; */
+
+
+}
+
+.App .nav .nav-left{
+  display: flex;
+  /* width: 50%; */
+  height: 100%;
+    /* align-items: center; */
+    justify-content: flex-start;
+    gap: 100px;
+    /* gap: 20px; */
+}
+
+
+.App .nav .tabs{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  gap: 20px;
+  
+}
+
+.App .nav img{
+  width: 80px;
+  height: 80px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.db-active{
+  border-bottom: 3px solid #223316 ;
+  background-color: #DFDFDF;
+  padding: 3px;
+  padding: 3px 10px 3px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.table-active{
+  border-bottom: 3px solid #223316 ;
+  background-color: #DFDFDF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;  padding: 3px 10px 3px 10px;
+
+
+
+
+}
+
+.profile-img{
+  width: 50px !important;
+  height: 50px !important;
+}
+
+
+

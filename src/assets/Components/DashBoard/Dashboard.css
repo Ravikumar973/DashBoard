@@ -1,0 +1,182 @@
+.dashboard {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .head{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
+
+  .head h3{
+    color: #255473;
+
+  }
+
+  
+  .stock-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stock-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    text-align: center;
+    width: 18%;
+    /* height: 18%; */
+    position: relative;
+  }
+  
+  .stock-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .stock-amount span {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .out-of-stock {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .graphs-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 95px;
+
+  }
+  
+  .stacked-bar-chart {
+    flex: 3;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+  }
+  
+  .donut-charts {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    position: relative;
+    left: -0px;
+    gap: 30px;
+    background-color: #F3F3F3;
+  }
+  
+  .donut-chart {
+    background: white;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    text-align: center;
+    width: 45%; /* Adjusted width */
+  }
+  
+  .custom-legend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 30px; */
+    position: relative;
+    top: 150px;
+  }
+  
+  .custom-legend .inner-legend {
+    margin: 5px 0;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 10px;
+    /* gap: 20px; */
+  }
+
+  .inner-legend .small-legend{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* background-color: black; */
+  }
+
+
+  .stacked-bar-chart h2{
+    width: 30%;
+  }
+
+
+  .calender{
+    display: flex;
+    width: 100px;
+    background-color: #4C9539;
+    border-radius: 20px;
+    padding: 5px;
+    gap: 3px;
+    /* padding: 10px; */
+  }
+  
+  .calender img{
+    width: 20px;
+    /* width: 100%; */
+    /* height: auto;
+    mix-blend-mode: lighten;
+    background-color: #4C9539 ; */
+    mix-blend-mode: multiply;
+  
+  }
+  
+
+  .calender .inner-calender{
+    width: 70%;
+    height: 90%;
+    border-radius: 2px;
+    background-color: white;
+    padding: 2px;
+  }
+
+
+
+  .head1{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
+
+  .head1 h3{
+    color: #255473;
+    position: relative;
+    left: 44%;
+
+  }
+
+
+
+
+  
